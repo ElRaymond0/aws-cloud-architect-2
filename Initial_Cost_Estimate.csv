@@ -1,0 +1,20 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,8926.16,107113.92,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,VPN Connection,0,218,2616.00,USD,,"Working days per month (30), Number of subnet associations (2)"
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,66.6,799.20,USD,,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,1504,18048.00,USD,,"Data transfer out to internet (2000 GB per month), Data transfer out to origin (1000 GB per month), Number of requests (HTTPS) (500 per second)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,2.32,27.84,USD,,"S3 Standard storage (100 GB per month), GET, SELECT, and all other requests from S3 Standard (50000)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,112.42,1349.04,USD,,Number of Application Load Balancers (4)
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,219.584,2635.01,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3a.large), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for SQL server,0,6803.24,81638.88,USD,,"Storage amount (100 GB), Nodes (2), Instance type (db.t3.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Single-AZ), License (License included), Database edition (Enterprise), Pricing strategy (OnDemand), Storage for each RDS instance (General Purpose SSD (gp2))"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

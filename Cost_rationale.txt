@@ -1,0 +1,5 @@
+Reduce costs:
+To reduce the costs of the initial costing exercise, I reduced the RDS for SQL server from db.t3.2xlarge which had 32gb memory down to db.t3.xlarge which had 16gb and halved my costs. In order to further reduce costs I changed the web and application EC2 instances to use spot instances which again had a significant cost saving.
+
+Increase Budget Scenario:
+To increase the budget I have thought about redundancy and increasing performance in a couple of ways. Firstly replicating my AWS estate in another region for upgrading my redundancy. In order to add a bit more performance I upgraded the EC2 instances to t3.large and set the payment plan to on demand.
